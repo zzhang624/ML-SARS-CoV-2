@@ -90,7 +90,7 @@ more to this decision than others. LRP propagates
 relevance R from the output layer to the input layer thought the weights of the network and
 neural activations. The propagation follows the LPR-0 rule:
 <p align="center">
-  <img width="450" src="https://github.com/zzhang624/ML-SARS-CoV-2/blob/main/equations/LRP.jpg">
+  <img width="300" src="https://github.com/zzhang624/ML-SARS-CoV-2/blob/main/equations/LRP.jpg">
 </p>
 where
 Rk and Rj are the relevances of two neurons in one layer and the previous layer, separately,
