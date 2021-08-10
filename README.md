@@ -51,12 +51,12 @@ classification, the data points are classified according to an output threshold 
 The LR implementation in the scikit-learn library was used. The importance of a feature
 is the corresponding weight (β1 to βp, normalized) in equation. When dividing data into
 training and test sets, different random states led to different importance profiles in the LR
-classifier:
+classifier.
+Bootstrapping was used to generate multiple training sets and to obtain
+converged average importance profiles in the LR classifier:
 <p align="center">
   <img src="https://github.com/zzhang624/ML-SARS-CoV-2/blob/main/fig_results/LR_converge.png">
 </p>
-Bootstrapping was used to generate multiple training sets and to obtain
-converged average importance profiles in the LR classifier.
 
 ### Random Forest
 
@@ -80,7 +80,7 @@ considered in each node was set to 50.
 A multilayer perceptron (MLP) is a type of feed-forward artificial neural network. Compared to linear classification or regression models, an MLP includes extra hidden layer(s) of
 perceptrons (nodes) between input and output layers. Except for the input layer, each node
 uses a nonlinear activation function to deal with the signals propagated from the previous
-layer. We used the scikit-learn implementation of MLP.S27 We set one hidden layer with 55
+layer. We used the scikit-learn implementation of MLP. We set one hidden layer with 55
 nodes (roughly the square root of the product of the number of input nodes number and
 output nodes) using the Rectified Linear Unit (ReLU) as the activation function. ReLU was
 chosen because it is faster, capable of outputting true zero, and easier to optimize than sigmoid or tanh activation functions. Labels were one-hot encoded. During training, Adam, a stochastic gradient-based optimizer, was used to optimize weights between nodes. Feature
