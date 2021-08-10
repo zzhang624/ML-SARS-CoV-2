@@ -1,6 +1,6 @@
 # ML-SARS-CoV-2
 
-Here is the sourse code for the article [Machine Learning Reveals the Critical Interactions for SARS-CoV-2 Spike Protein Binding to ACE2](https://pubs.acs.org/doi/full/10.1021/acs.jpclett.1c01494).
+Here is the source code for the article [Machine Learning Reveals the Critical Interactions for SARS-CoV-2 Spike Protein Binding to ACE2](https://pubs.acs.org/doi/full/10.1021/acs.jpclett.1c01494).
 
 We trained ML classifiers to distinguish between the configurations from the SARS-CoV and SARS-CoV-2 trajectories and, in the process, rate the importance of each feature to the classification. The feature importance profile hence reveals specific residues that exemplify the different behaviors of the two RBDs.
 
