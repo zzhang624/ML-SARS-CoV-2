@@ -1,6 +1,6 @@
 # ML-SARS-CoV-2
 
-The IPYNB file is the source code for the article [Machine Learning Reveals the Critical Interactions for SARS-CoV-2 Spike Protein Binding to ACE2](https://pubs.acs.org/doi/full/10.1021/acs.jpclett.1c01494).
+The run_MLP_LRP_SHUFFLE_BOOTSTRAP_GITHUB.ipynb file is the source code for the article [Machine Learning Reveals the Critical Interactions for SARS-CoV-2 Spike Protein Binding to ACE2](https://pubs.acs.org/doi/full/10.1021/acs.jpclett.1c01494).
 
 <p align="center">
   <img src="https://github.com/zzhang624/ML-SARS-CoV-2/blob/main/fig_results/fig_abstract.jpeg">
