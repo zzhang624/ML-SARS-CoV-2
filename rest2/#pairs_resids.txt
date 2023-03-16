@@ -1,0 +1,3 @@
+# cutoff = 2.4 nm
+# CoV interaction pairs (resids {ACE RBD})
+# CoV2 interaction pairs (resids {ACE RBD})
